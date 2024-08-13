@@ -14,9 +14,9 @@ function Header({ theme, setTheme, config }) {
   function returnRouteName(route) {
     switch (route) {
       case 'index':
-        return 'Blog';
+        return '文章';
       case 'about_me':
-        return 'About';
+        return '关于';
       default:
         return '';
     }
@@ -37,14 +37,15 @@ function Header({ theme, setTheme, config }) {
   useEffect(() => {
     setCurrentRoute(router.pathname);
   }, [router]);
+
   return (
     <div className="p-2 w-100 rounded-1 d-flex align-items-center">
       <nav className="w-100 navbar navbar-expand-lg ">
         <div className="container-fluid d-flex justify-content-between">
           <Link href={'/'} className="d-flex align-items-center">
             <Image
-              src={`/site_logo/logo.svg`}
-              alt="Sushi Icon"
+              src={`/site_logo/logo.png`}
+              alt="早早集市"
               width={35}
               height={35}
             />

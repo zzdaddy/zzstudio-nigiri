@@ -32,7 +32,7 @@ export function formatDateString(inputDateString, format, customSeparator) {
   if (format === 'full_date') {
     options = { year: 'numeric', month: 'long', day: 'numeric' };
     const inputDate = new Date(inputDateString);
-    date = inputDate.toLocaleDateString('en-US', options);
+    date = inputDate.toLocaleDateString('zh-CN', options);
   } else {
     options = {
       year: 'numeric',
@@ -41,12 +41,12 @@ export function formatDateString(inputDateString, format, customSeparator) {
     };
     const inputDate = new Date(inputDateString);
     date = inputDate
-      .toLocaleDateString('en-US', options)
+      .toLocaleDateString('zh-CN', options)
       .replace(
         /(\d+)\/(\d+)\/(\d+)/,
-        `$3${customSeparator ? customSeparator : '-'}$1${
+        `$1${
           customSeparator ? customSeparator : '-'
-        }$2`
+        }$2${customSeparator ? customSeparator : '-'}$3`
       );
   }
 

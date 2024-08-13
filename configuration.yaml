@@ -1,48 +1,48 @@
 # Site settings:
-site_title: 'Nigiri'
-site_description: 'Demo version of Nigiri Next.js Template'
+site_title: '早早集市'
+site_description: 'A special place all about a front-end developer'
 
-# Profile:
-name: 'John'
-surname: 'Doe'
-professional_identity: 'Proffessional Magician'
+# 主页个人信息展示
+# name可以当成一个标语来使用，和左上角的name有点冲突了
+name: '今天是二手商贩！'
+surname: ''
+professional_identity: 'you will not lose, if you do not play'
 profile_picture: ''
 
 # "About me" page's paragraphs:
-about_me_paragraph: |
+关于_paragraph: 关于关于关于关于
 
-  In eget imperdiet orci, convallis feugiat diam. Nam nec turpis tincidunt, diam ac, efficitur velit. In congue velit a nisi finibus, eget pulvinar lectus cursus. Duis risus ligula, eleifend rutrum velit ut, varius varius mauris. Duis sollicitudin diam ut fringilla cursus. Mauris efficitur, tortor ac pharetra aliquet, nunc eros interdum augue, ut velit velit ac urna.
-  eu arcu facilisis ligula rhoncus imperdiet ac eget turpis. Sed placerat porta orci quis volutpat.
+测试__paragraph: 测试测试测测撒大
 
 # Socials:
-github_username: 'test'
+github_username: 'zzdaddy'
 github_icon: 'github.svg'
 
-linkedin_username: 'test'
-linkedin_icon: 'linkedin.svg'
+# linkedin_username: 'test'
+# linkedin_icon: 'linkedin.svg'
 
-instagram_username: 'test'
-instagram_icon: 'instagram.svg'
+# instagram_username: 'test'
+# instagram_icon: 'instagram.svg'
 
-tumblr_username: 'test'
-tumblr_icon: 'tumblr.svg'
+# tumblr_username: 'test'
+# tumblr_icon: 'tumblr.svg'
 
-steam_username: 'test'
-steam_icon: 'steam.svg'
+# steam_username: 'test'
+# steam_icon: 'steam.svg'
 
-twitter_username: 'test'
+twitter_username: 'zzstudiO_O'
 twitter_icon: 'twitter.svg'
 
 # Email btn
-email_address: 'test@gmail.com'
+email_address: 'gnakzz@qq.com'
 
 # "Buy me a coffee" button:
-buyMeACoffee_username: 'devnyxie'
+buyMeACoffee_username: ''
 
 # Other:
 profile_picture_border: true
 disable_about_me_page: false
 disable_animated_underline: false
-blog_preview_date_format: ''
+blog_preview_date_format: 'YYYY-MM-DD'
 blog_preview_date_separators: '-'
 max_posts_per_page: '8'

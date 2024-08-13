@@ -106,11 +106,11 @@ function Profile({ config }) {
       }`}
       style={{}}
     >
-      <ProfilePicture
+      {/* <ProfilePicture
         config={config}
         size={200}
         className="pfp d-flex d-md-none mb-4 mt-4"
-      />
+      /> */}
       {show_info_block ? (
         <div>
           {config.name ? (
@@ -129,11 +129,11 @@ function Profile({ config }) {
         <></>
       )}
 
-      <ProfilePicture
+      {/* <ProfilePicture
         config={config}
         size={150}
         className="pfp d-none d-md-flex"
-      />
+      /> */}
     </div>
   );
 }

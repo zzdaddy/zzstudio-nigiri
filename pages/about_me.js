@@ -24,7 +24,7 @@ function about_me({ config }) {
   return (
     <div className="w-100 fade-in">
       <div className="w-100 d-flex justify-content-center">
-        <ProfilePicture config={config} size={250} className="pfp mb-4" />
+        {/* <ProfilePicture config={config} size={250} className="pfp mb-4" /> */}
       </div>
       {paragraphs.map((paragraph, index) => {
         let markdown = markdownToHtml(paragraph.paragraph_text);
