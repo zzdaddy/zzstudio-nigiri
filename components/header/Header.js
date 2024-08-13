@@ -44,7 +44,7 @@ function Header({ theme, setTheme, config }) {
         <div className="container-fluid d-flex justify-content-between">
           <Link href={'/'} className="d-flex align-items-center">
             <Image
-              src={`/site_logo/logo.png`}
+              src={`${theme === 'dark' ? '/site_logo/logo_dark.png' : '/site_logo/logo.png'}`}
               alt="早早集市"
               width={35}
               height={35}
